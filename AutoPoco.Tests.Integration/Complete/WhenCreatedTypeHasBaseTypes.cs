@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NUnit.Framework;
-
-using AutoPoco;
+﻿using NUnit.Framework;
 using AutoPoco.Engine;
 using AutoPoco.Testing;
 using AutoPoco.DataSources;

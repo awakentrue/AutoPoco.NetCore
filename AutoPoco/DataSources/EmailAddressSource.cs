@@ -6,8 +6,6 @@
 
 namespace AutoPoco.DataSources
 {
-    using System;
-
     using AutoPoco.Engine;
 
     /// <summary>

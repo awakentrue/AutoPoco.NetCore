@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using AutoPoco.Engine;
 using NUnit.Framework;
 using AutoPoco.Configuration;
-using AutoPoco.DataSources;
 using AutoPoco.Testing;
-using Moq;
 using AutoPoco.Configuration.Providers;
 
 namespace AutoPoco.Tests.Unit.Configuration

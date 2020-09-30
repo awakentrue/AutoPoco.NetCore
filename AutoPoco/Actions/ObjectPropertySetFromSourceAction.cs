@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Reflection;
-using AutoPoco.Configuration;
+﻿using AutoPoco.Configuration;
+using AutoPoco.Engine;
 
-namespace AutoPoco.Engine
+namespace AutoPoco.Actions
 {
     public class ObjectPropertySetFromSourceAction : IObjectAction
     {

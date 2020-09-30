@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using AutoPoco.Configuration;
-using AutoPoco.Conventions;
-using AutoPoco.Actions;
-using AutoPoco.Configuration.Providers;
 
 namespace AutoPoco.Engine
 {

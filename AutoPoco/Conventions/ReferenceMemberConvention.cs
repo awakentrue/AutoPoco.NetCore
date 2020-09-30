@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using AutoPoco.Configuration;
+﻿using AutoPoco.Configuration;
 using AutoPoco.DataSources;
 using System.Collections;
 

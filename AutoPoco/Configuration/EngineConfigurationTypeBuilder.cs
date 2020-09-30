@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Linq.Expressions;
 using AutoPoco.Util;
 using AutoPoco.Configuration.Providers;
-using AutoPoco.Engine;
 using System.Reflection;
-using AutoPoco.DataSources;
 
 namespace AutoPoco.Configuration
 {

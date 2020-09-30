@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using AutoPoco.Actions;
 using NUnit.Framework;
 
 using AutoPoco.Engine;
@@ -9,7 +7,6 @@ using AutoPoco.Util;
 using AutoPoco.Configuration;
 using AutoPoco.Testing;
 using Moq;
-using AutoPoco.DataSources;
 
 namespace AutoPoco.Tests.Unit.Engine
 {
