@@ -28,7 +28,7 @@ namespace AutoPoco.DataSources
         public override T Next(IGenerationContext context)
         {
             // Search upwards for parent
-            return this.FindParent(context.Node, false);
+            return FindParent(context.Node, false);
         }
 
         #endregion
@@ -57,15 +57,17 @@ namespace AutoPoco.DataSources
             if (current.ContextType == GenerationTargetTypes.Object)
             {
                 var type = (TypeGenerationContextNode)current;
-
-                if (type.Target is T)
+                if (type.Target is T target)
                 {
-                    return (T)type.Target;
+                    if (foundOne)
+                        return target;
+
+                    return FindParent(current.Parent, true);
                 }
             }
-
-            return this.FindParent(current.Parent, foundOne);
+            return FindParent(current.Parent, foundOne);
         }
+
 
         #endregion
     }

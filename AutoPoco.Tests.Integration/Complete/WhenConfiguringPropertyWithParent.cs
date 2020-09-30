@@ -48,7 +48,6 @@ namespace AutoPoco.Tests.Integration.Complete
         [Test]
         public void Property_Is_Set_With_Parent_Value_If_Parent_Exists()
         {
-			// TODO: This test fails. Fix it --Praneeth
             IGenerationSession session = AutoPocoContainer.Configure(
                 x => x.Include<SimpleNode>()
                          .Setup(y => y.Children).Collection(1, 1)
